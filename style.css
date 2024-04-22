@@ -10,7 +10,8 @@
 body {
   font-family: Arial, Arial, Helvetica;
   background-color: #eae2b7;
-  color: #044a53;
+  color: #095862;
+  font-size: 14px;
 }
 
 /* Header styles */
@@ -34,7 +35,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #f77f00;
+  color: #0097f5;
 }
 
 /* Main styles */
@@ -47,21 +48,27 @@ main div{
 }
 /* About section styles */
 #about {
-  text-align: left;
+  text-align: center;
 }
 
 #about h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  text-align: center;
+}
+#about p {
+   margin-bottom: 20px;
+  text-align: left;
 }
 
 #about h3 {
   font-size: 18px;
+  text-align :center
   
 } 
 #about ul {
-   margin-left: 40px;
-  
+   margin-left: 20px;
+  text-align :left 
 }
 
 .image-circle {
@@ -116,4 +123,16 @@ img {
   max-width: 20%;
   max-height: 20%;
   align-items: center;
+}
+
+/* Styles for regular links */
+a {
+  color: #d62828; /* Default link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styles for hovered links */
+a:hover {
+  color: #6664dd; /* Change link color on hover */
+  text-decoration: underline; /* Add underline on hover */
 }
